@@ -103,7 +103,7 @@
 /* <counter> */
 
 .counter-item{
-  background-color:white;
+  background:white;
   text-align: center;
   align-items: center;
   border-radius: var(--border-radius);
@@ -131,7 +131,7 @@
 .counter_text{
   color: #232121;
   font-weight: 600;
-  font-size: 30px;
+  font-size: 32px;
   padding-top: 25px;
 }
 
@@ -153,7 +153,6 @@
   z-index: 1;
   height: 500px;
   width: 100%;
-  display: grid;
 }
 
 .digital_counter::after{
@@ -177,6 +176,14 @@
   text-align: center;
   background: white;
 }
+
+.video i:hover{
+  color: white;
+  background: #ff6600;
+}
+
+
+
 
 
 
@@ -318,17 +325,40 @@
 .footer_right{
   display: flex;
   margin-left: 100px;
-  margin-top: 10px;
+  margin-top: 3px;
   align-items: center;
-  gap: 27px;
+  gap: 15px;
 }
 
 .footer_right P{
   margin-top: 14px;
   color: black;
-  font-weight: 600;
+  font-weight: 700;
 }
 
-.footer_right p:hover{
+.footer_right:hover{
   color: #ff6600;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
