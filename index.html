@@ -32,9 +32,9 @@
       crossorigin="anonymous"
     />
 
-    <!-- <slick></slick>
-    <link rel="stylesheet" href="./libs/slick/slick.css" />
-    <link rel="stylesheet" href="./libs/slick/slick-theme.css" /> -->
+    <!-- <slick></slick> -->
+    <!-- <link rel="stylesheet" href="./libs/slick/slick.css" /> -->
+    <!-- <link rel="stylesheet" href="./libs/slick/slick-theme.css" /> -->
 
     <link
       rel="stylesheet"
@@ -75,29 +75,29 @@
     <section id="counter">
       <div class="container">
         <div class="row">
-          <div class="col-md-3">
-            <div class="counter-item">
+          <div class="col-md-3 counter-item">
+            <div class="counter-content p-5 text-center">
               <i class="far fa-building"></i>
               <p class="counter_text">15.100</p>
               <h4 class="write">Branches</h4>
             </div>
-          </div>
-          <div class="col-md-3">
-            <div class="counter-item">
+          </div>  
+          <div class="col-md-3 counter-item">
+            <div class="counter-content p-5 text-center">
               <i class="fas fa-utensils"></i>
               <p class="counter_text">19.256</p>
               <h4 class="write">Food Items</h4>
             </div>
           </div>
-          <div class="col-md-3">
-            <div class="counter-item">
+          <div class="col-md-3 counter-item">
+            <div class="counter-content p-5 text-center">
               <i class="fas fa-users"></i>
               <p class="counter_text">12.100</p>
               <h4 class="write">Chefs</h4>
             </div>
           </div>
-          <div class="col-md-3">
-            <div class="counter-item">
+          <div class="col-md-3 counter-item">
+            <div class="counter-content p-5 text-center">
               <i class="fas fa-smile"></i>
               <p class="counter_text">2.560</p>
               <h4 class="write">Happy Customers</h4>
@@ -110,13 +110,13 @@
     <!-- <digital></digital> -->
     <section id="digital">
       <div class="container">
-        <div class="digital_counter"></div>
-        <div class="digital_text">
-          <div class="video">
-            <a href="https://player.vimeo.com/video/305185528">
-              <i class="fas fa-play"></i>
-            </a>
-          </div>
+        <div class="digital_counter">
+          <div class="digital_text">
+            <div class="video">
+              <a href="https://player.vimeo.com/video/305185528">
+                <i class="fas fa-play"></i>
+              </a>
+            </div>
         </div>
       </div>
     </section>
@@ -129,7 +129,7 @@
           <h3>Blog Posts</h3>
         </div>
         <div class="row">
-          <div class="card">
+          <div class="card col-4">
             <div class="card_text">
               <div class="card_img">
                 <img src="./img/image/banner1.jpg" alt="" />
@@ -160,7 +160,7 @@
               </div>
             </div>
           </div>
-          <div class="card">
+          <div class="card col-4">
             <div class="card_text">
               <div class="card_img">
                 <img src="./img/image/banner3.jpg" alt="" />
@@ -191,7 +191,7 @@
               </div>
             </div>
           </div>
-          <div class="card">
+          <div class="card col-4">
             <div class="card_text">
               <div class="card_img">
                 <img src="./img/image/banner1.jpg" alt="" />
@@ -228,28 +228,22 @@
 
   
 
-
- <!-- <carousel></carousel>        -->
-     <div id="demo" class="carousel slide"  data-ride="carousel ">
-
- <!-- !- Indicators  -->
- <ul class="carousel-indicators">
-    <li data-target="#demo" data-slide-to="0" class="active"></li>
-    <li data-target="#demo" data-slide-to="1"></li>
-    <li data-target="#demo" data-slide-to="2"></li>
-  </ul>
-
   <!-- The slideshow -->
- <div class="carousel-inner">
-    <div class="carousel-text active">
-      <div class="carousel-caption">
+
+  <div class="carousel-text">
+        <h3>Testimonials</h3>
+        <h1>What People Say</h1>
+  </div>
+
+ <div class="carousel_list">
+    <div class="carousel_caption">
+      <div class="carousel_item">
         <div class="img_thumb">
-          <h3>Testimonials</h3>
-          <h1>What People Say</h1>
           <img class="img-fluid" src="./img/image/team1.jpg" alt="" />
         </div>
         <div class="text_text">
-          <h2>OMG ! I cannot believe.It's Awesome</h2>
+          <h2> "<br class="kevin">
+            OMG ! I cannot believe.It's Awesome"</h2>
            <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit.assumenda
           ea aliquid <br />
@@ -261,17 +255,14 @@
           <h5>Customer</h5>
         </div>  
       </div>
-    </div>
-
-    <div class="carousel-text">
-      <div class="carousel-caption">
+   
+      <div class="carousel_item">
         <div class="img_thumb">
-          <h3>Testimonials</h3>
-          <h1>What People Say</h1>
-          <img class="img-fluid" src="./img/image/team2.jp" alt="" />
+          <img class="img-fluid" src="./img/image/team2.jpg" alt="" />
         </div>
         <div class="text_text">
-          <h2>Simply the best .Better than all the rest</h2>
+          <h2> "<br class="kevin"> 
+            Simply the best .Better than all the rest"</h2>
           <p>
            Lorem ipsum dolor sit amet consectetur adipisicing elit.assumenda
           ea aliquid <br />
@@ -283,17 +274,14 @@
           <h5>Customer</h5>
         </div>
       </div>
-    </div>
-
-    <div class="carousel-text">
-      <div class="carousel-caption">
+   
+     <div class="carousel_item">
         <div class="img_thumb"> 
-          <h3>Testimonials</h3>
-          <h1>What People Say</h1>
           <img  class="img-fluid" src="./img/image/team3.jpg" alt="" />
         </div>
         <div class="text_text">
-          <h2>OMG ! I cannot believe.It's Awesome</h2>
+          <h2>"<br class="kevin">
+            OMG ! I cannot believe.It's Awesome "</h2>
           <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit.assumenda
           ea aliquid <br />
@@ -305,18 +293,15 @@
           <h5>Customer</h5>
         </div>
       </div>
-    </div>
-  </div>
+    
 
-   <div class="carousel-text">
-    <div class="carousel-caption">
+     <div class="carousel_item">
       <div class="img_thumb">
-        <h3>Testimonials</h3>
-        <h1>What People Say</h1>
         <img  class="img-fluid" alt="placeholder" />
       </div>
       <div class="text_text">
-        <h2>OMG ! I cannot believe.It's Awesome</h2>
+        <h2> "<Br class="kevin">
+          OMG ! I cannot believe.It's Awesome"</h2>
         <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit.assumenda
         ea aliquid <br />
@@ -327,21 +312,98 @@
        <p class="johnson">Julia sakura</p>
       <h5>Customer</h5>
       </div>
+     </div>  
+   </div>  
+ </div>
+
+
+
+        <!-- <dinner></dinner> -->
+ <div class="dinner">
+      <div class="container">
+        <div class="row">
+          <div class="dinner_left">
+            <h1>Dinner</h1>
+            <p>
+              Lorem ipsum viverra feugiat Semper at elit sit .<br />
+              Pellen tesque libero ut justo, ultrices in ligula<br />
+              Semper at tempufddfel ultrices in  libero in.<br />
+              Lorem ipsum doloramet 
+            </p>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+          </div>
+
+          <div class="use_link">
+            <h1>Usefull Links</h1>
+            <div class="menu">
+              <li>About Us</li>
+              <li>Services</li>
+              <li>Blog post</li>
+              <li>Careers</li>
+              <li>Contact us</li>
+            </div>
+          </div>
+
+          <div class="more_info">
+            <h1>More Info</h1>
+            <div class="menu_more">
+              <li>Histor</li>
+              <li>Vision & Value</li>
+              <li>Awards</li>
+              <li>Media</li>
+              <li>Support</li>
+            </div>
+          </div>
+
+          <div class="Subscribe">
+            <h1>Subscribe to our Newsletter</h1>
+            <p>
+              Enter your email and receive the latest news, <br />
+              updates and special offers from us.
+            </p>
+            <input id="btn" type="text" placeholder="Your Email Address">
+            <button type="button" class="btn btn-primary">Subscibe Now</button>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-</div> 
+
+      <!-- <Dinner_bottom></Dinner_bottom> -->
+    <div class="dinner_bottom">
+      <div class="container">
+        <div class="row">
+          <div class="layout_left">
+            <p>© 2021 Diner. All rights reserved. Design by </p>
+            <h4>W3Layouts</h4>
+          </div>
+          <div class="layout_right">
+            <div class="menu">
+              <li>Careers</li>
+              <li>Privacy Policy</li>
+              <li>Contact us</li>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <video></video> -->
+    <div class="container">
+      <div class="video_text">
+        <video controls poster="./img/image/layout_HTML.png">
+          <source src="https://h5.vdo.ai/media_file/v-w3layouts/source/uploads/videos/1648810245326246d905ebe51.m3u8" type="application/x-mpegURL">
+        </video>
+        <div class="play_content">
+          <i class="fas fa-play"></i>
+        </div>
+      </div>
+    </div>
 
 
 
-
-   <!-- Left and right controls -->
-   <a class="carousel-control-prev" href="#demo" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </a>
-  <a class="carousel-control-next" href="#demo" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </a>
-</div> 
 
 
 
@@ -364,5 +426,16 @@
     ></script>
 
 
+    <script>
+      $(document).ready(function () {
+      $('.carousel_item').slick({
+       dots: true,
+       infinite: true,
+       speed: 300,
+       slidesToShow: 1,
+      adaptiveHeight: true
+    });
+    });
+    </script>
   </body>
 </html>
